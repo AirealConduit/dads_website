@@ -14,14 +14,14 @@ function Home() {
         
         </header>
         <body className="App-body">
+          <p></p>
         <img src={topImage} className="App-logo" alt="logo" />
-            <p>
-              Welcome to HandyMan Eshkol
+            <p className='color'>
+              We can fix or setup anything you want!
             </p>
             <a
               className="App-link"
-              href=""
-              target="_blank"
+              href="/contact"
               rel="noopener noreferrer"
             >
               Click here to schedule

@@ -8,8 +8,10 @@ function Contact() {
             
             </header>
             <body className="App-body">
-            <p>
-                  CONTACT
+            <p></p><p></p><p></p><p></p><p></p>
+            <p className='paragraph'>
+              Phone: 333-333-3333  <br></br><br></br>
+              E-mail: WorkEmail@gmail.com
             </p>
             </body>
             <footer className="App-footer">

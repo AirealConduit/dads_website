@@ -8,7 +8,7 @@ function Services() {
         
         </header>
         <body className="App-body">
-        <p>
+        <p className='color'>
               SERVICES
         </p>
         </body>

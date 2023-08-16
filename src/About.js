@@ -8,7 +8,7 @@ function About() {
             
             </header>
             <body className="App-body">
-            <p>
+            <p className='color'>
                   ABOUT
             </p>
             </body>
