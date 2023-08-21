@@ -29,7 +29,7 @@ function Home() {
         </body>
         <footer className="App-footer">
             <p>
-              This is the FOOTER
+           FOOTER
             </p>
         </footer>
         </div>

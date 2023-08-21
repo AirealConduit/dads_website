@@ -15,6 +15,7 @@
   position: fixed;
   transition: top 0.3s;
   list-style-type: none;
+  z-index: 100;
 }
 
 .topnav a {
@@ -49,6 +50,7 @@
 }
 .App-body {
   background-color: #0750e2;
+  
   background-image: url("images/fireplace.jpg");
   min-height: 100vh;
   display: flex;
@@ -60,6 +62,26 @@
 
   
 }
+.App-body-text {
+  background-color: #0750e2;
+  
+  background-image: 
+  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+  url("images/fireplace.jpg");
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  
+}
+
 .App-footer {
   background-color: #333;
   min-height: 25vh;
@@ -69,6 +91,73 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+/* MAIN AREA: CONTACT */
+.contact-container .card{
+  width: 300px;
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+  padding: 16px;
+  box-shadow: 0 9px 17px -6px rgba(0, 0, 0, 0.2);
+  position: relative;
+  transition: all 400ms ease;
+}
+
+.contact-container,
+.contact-container * {
+  box-sizing: border-box;
+}
+.contact-container .card:hover {
+  transform: scale(1.03);
+}
+
+.contact-container .card a{
+  text-decoration: none;
+  color: #14213d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.contact-container .card img{
+  margin: -16px;
+  object-fit: cover;
+}
+
+.contact-container .card .category {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #14213d;
+  color: white;
+  padding: 2px 16px;
+  font-size: 13px;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.contact-container .card h2.title {
+  font-size: 20px;
+  margin: 28px 0 10px 0;
+  line-height: 1.4;
+
+}
+
+.contact-container .card .description {
+  font-size: 15px;
+  color: #333;
+  margin: 0;
+  line-height: 1.7;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  max-width: 800px;
+  margin: 20px auto;
 }
 
 /* SMALL AREAS */
@@ -87,4 +176,7 @@
   color: black;
 }
 
+.serv{
+  color: black;
+}
 
