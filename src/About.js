@@ -7,7 +7,7 @@ function About() {
     <header className="App-header">
             
             </header>
-            <body className="App-body-text">
+            <body className="App-body-darker">
             <p>
             Why Choose AllFix Handyman Services?<br></br><br></br>
 

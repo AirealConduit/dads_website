@@ -7,7 +7,7 @@ function Services() {
 <header className="App-header">
         
         </header>
-        <body className="App-body-text">
+        <body className="App-body-darker">
         <p>
 🔧 Are your gutters clogged, causing leaks and water damage? We've got you covered! Our expert team specializes in efficient gutter cleaning, repair, and installation, ensuring your home is protected from the elements.<br></br><br></br>
 
