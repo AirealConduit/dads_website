@@ -8,7 +8,7 @@ function Navbar() {
 return (
 <div className='topnav'>
         <a><Link to="/">Home</Link></a>
-        <a><Link to="/about">About</Link></a>
+        
         <a><Link to="/services">Services</Link></a>
         <a><Link to="/contact">Contact</Link></a>
 </div>
@@ -17,3 +17,5 @@ return (
 }
 
 export default Navbar;
+
+// <a><Link to="/about">About</Link></a>
