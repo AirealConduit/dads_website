@@ -1,4 +1,3 @@
-import topImage from './images/HandyMan.png';
 import './App.css';
 
 function About() {

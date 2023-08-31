@@ -1,4 +1,3 @@
-import topImage from './images/HandyMan.png';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import React from 'react';
@@ -59,4 +58,4 @@ function App() {
 
 export default App;
 
-/*<img src={topImage} className="App-logo" alt="logo" />*/
+/*<img src={topImage} className="App-logo" alt="logo" />  This is if I ever create a logo for the website */
