@@ -15,13 +15,13 @@ function Home() {
         </header>
         <body className="App-body">
           <br></br>
-        <img src={topImage} className="App-logo" alt="logo" />
-        <p className='color'>🎨 Expert Painting Services and Seamless Drywall Repair for a Transformed Home 🏠</p>
-            <a className="App-link" href="/contact" rel="noopener noreferrer">
-              Click here to schedule
+          <h1 className='header1'>Painter Professionals</h1>
+          <a className="button" href="/contact" rel="noopener noreferrer">
+              Click here to schedule!
             </a>
+
             <p className='about'>
-            Why Choose Painting professionals?<br></br><br></br>
+            🎨 Expert Painting Services and Seamless Drywall Repair for a Transformed Home 🏠<br></br><br></br>
 
 🛠️ Expertise: Our team of skilled professionals brings years of experience to every project, ensuring top-notch results.<br></br><br></br>
 
@@ -36,11 +36,7 @@ function Home() {
 📞 Customer Satisfaction: Your happiness is our ultimate goal. We listen to your needs, provide transparent communication, and exceed your expectations.<br></br>
             </p>
         </body>
-        <footer className="App-footer">
-            <p>
-           FOOTER
-            </p>
-        </footer>
+
         </div>
     );
 }
@@ -62,3 +58,5 @@ function App() {
 }
 
 export default App;
+
+/*<img src={topImage} className="App-logo" alt="logo" />*/

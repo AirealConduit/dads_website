@@ -80,7 +80,7 @@
   color: white;
 }
 .App-body {
-  background-color: #0750e2;
+  background-color: #02811e;
   
   background-image: 
   linear-gradient(
@@ -133,7 +133,7 @@
 @media (max-width: 500px ) {
   .contact-container .card{
     width: 300px;
-    background: #fff;
+    background: #60ee53;
     font-family: "Roboto", sans-serif;
     padding: 16px;
     box-shadow: 0 9px 17px -6px rgba(0, 0, 0, 0.2);
@@ -187,6 +187,7 @@
     color: #333;
     margin: 0;
     line-height: 1.7;
+    font-weight: bold;
   }
   
   .contact-container {
@@ -200,8 +201,8 @@
 /* CONTACT AREA (COMPUTERS)*/
 @media (min-width: 1000px ) {
   .contact-container .card{
-  width: 300px;
-  background: #fff;
+  width: 500px;
+  background: #60ee53;
   font-family: "Roboto", sans-serif;
   padding: 16px;
   box-shadow: 0 9px 17px -6px rgba(0, 0, 0, 0.2);
@@ -255,13 +256,14 @@
   color: #333;
   margin: 0;
   line-height: 1.7;
+  font-weight: bold;
 }
 
 .contact-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 32px;
-  max-width: 800px;
+  /*max-width: 800px;*/
   margin: 20px auto;
 }
 }
@@ -295,3 +297,56 @@
   margin: 10px;
 }
 
+@media (max-width: 500px){
+.button {
+  background-color: rgb(39, 133, 255);
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin-top: 100px;
+  margin-right: 10px;
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+.header1{
+  font-size: 60px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #ff0000, #0044ff);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+}
+
+@media (min-width: 1000px){
+  .button {
+    background-color: rgb(39, 133, 255);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 100px;
+    margin-right: 10px;
+    position:absolute;
+    top:0;
+    right:0;
+  }
+  
+  .header1{
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #ff0000, #0044ff);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+}

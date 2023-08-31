@@ -25,15 +25,10 @@ Welcome to Painting professionals Services, your all-in-one solution for premium
 
 📞 Personalized Consultation: Contact us for a complimentary consultation. We'll discuss your painting and drywall needs, provide a comprehensive estimate, and tailor a plan that aligns with your preferences and budget.<br></br><br></br>
 
-But wait, there's more! We offer a diverse range of home improvement solutions. From installing light fixtures to revamping your bathroom, from fixing squeaky doors to assembling furniture we do it all! If you have a project in mind, feel free to ask, and we'll make it happen.
+But wait, there's more! We offer a diverse range of home improvement solutions. From installing light fixtures to revamping your bathroom, from fixing squeaky doors to assembling furniture, we do it all! If you have a project in mind, feel free to ask, and we'll make it happen.
 Experience the magic of expert painting and seamless drywall repair, all under one roof. Connect with us today to schedule your consultation. Embark on the journey to transform your home into a haven of beauty, sophistication, and perfection.<br></br><br></br>
         </p>
         </body>
-        <footer className="App-footer">
-        <p>
-           FOOTER
-            </p>
-        </footer>
 
   </div>
   );

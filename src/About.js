@@ -9,7 +9,7 @@ function About() {
             </header>
             <body className="App-body-darker">
             <p>
-            Why Choose AllFix Handyman Services?<br></br><br></br>
+            Why Choose ?<br></br><br></br>
 
 🛠️ Expertise: Our team of skilled professionals brings years of experience to every project, ensuring top-notch results.<br></br><br></br>
 

@@ -13,27 +13,22 @@ function Contact() {
             <div className='contact-container'>
               <div className='card'>
                 <a href="#">
-                  <div className='category'>Call</div>
+                  <div className='category'>Call / Text</div>
                   <img src={firstCard} alt =""/>
-                  <h2 className='title'>Phone number: <br></br> 777-777-7777</h2>
-                  <div className='description'>We respond between the times of 00:00 - 24:00</div>
+                  <h2 className='title'>Phone number: <br></br> 954-625-4476</h2>
+                  <div className='description'>We respond between the times of 8:00 AM - 5:00 PM</div>
                 </a>
               </div>
               <div className='card'>
                 <a href="#">
                   <div className='category'>E-mail</div>
                   <img src={secondCard} alt =""/>
-                  <h2 className='title'>E-mail: <br></br> WorkEmail@gmail.com </h2>
-                  <div className='description'>We respond all times of the day</div>
+                  <h2 className='title'>E-mail: <br></br> Ariel18555@gmail.com </h2>
+                  <div className='description'>We respond at all times of the day!</div>
                 </a>
               </div>
             </div>
             </body>
-            <footer className="App-footer">
-            <p>
-            FOOTER
-            </p>
-            </footer>
     
       </div>
   );
