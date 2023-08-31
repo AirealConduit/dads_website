@@ -297,6 +297,7 @@
   margin: 10px;
 }
 
+/*Button and Header for App.js */
 @media (max-width: 500px){
 .button {
   background-color: rgb(39, 133, 255);
@@ -323,7 +324,6 @@
   -webkit-background-clip: text;
 }
 }
-
 @media (min-width: 1000px){
   .button {
     background-color: rgb(39, 133, 255);
