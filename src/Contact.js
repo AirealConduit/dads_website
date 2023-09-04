@@ -23,7 +23,7 @@ function Contact() {
                 <a href="#">
                   <div className='category'>E-mail</div>
                   <img src={secondCard} alt =""/>
-                  <h2 className='title'>E-mail: <br></br> Ariel18555@gmail.com </h2>
+                  <h2 className='title'>E-mail: <br></br> painterproffesionals@gmail.com </h2>
                   <div className='description'>We respond at all times of the day!</div>
                 </a>
               </div>
