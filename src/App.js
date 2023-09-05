@@ -1,10 +1,12 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import React from 'react';
 import Navbar from './Navbar.js'; 
 import Services from './Services.js';
 import About from './About';
 import Contact from './Contact';
+
+const handleContactButton = () => {};
 
 function Home() {
     return (
@@ -15,9 +17,7 @@ function Home() {
         <body className="App-body">
           <br></br>
           <h1 className='header1'>Painter Professionals</h1>
-          <a className="button" href="/contact" rel="noopener noreferrer">
-              Click here to schedule!
-            </a>
+          <Link to = "/contact" onClick={handleContactButton} className="button">Click here to schedule!</Link>
 
             <p className='about'>
             🎨 Expert Painting Services and Seamless Drywall Repair for a Transformed Home 🏠<br></br><br></br>
